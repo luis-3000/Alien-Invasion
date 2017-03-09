@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>DESKTOP-44PQ4IV</Machine>
+    <WindowsUser>Jose Luis Castillo</WindowsUser>
+    <TargetPlatformIdentifier>Windows</TargetPlatformIdentifier>
+    <TargetOsVersion>6.3</TargetOsVersion>
+    <TargetOsDescription>Windows 8.1</TargetOsDescription>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <PackageIdentityName>e5fb5b97-58e9-403f-999b-988a986784de</PackageIdentityName>
+    <PackageIdentityPublisher>CN=Jose Luis Castillo</PackageIdentityPublisher>
+    <IntermediateOutputPath>c:\users\jose luis castillo\documents\visual studio 2015\Projects\Alien Invasion\Alien Invasion\obj\Debug\</IntermediateOutputPath>
+    <RemoteDeploymentType></RemoteDeploymentType>
+    <PackageRegistrationPath></PackageRegistrationPath>
+    <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="c:\users\jose luis castillo\documents\visual studio 2015\Projects\Alien Invasion\Alien Invasion\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="c:\users\jose luis castillo\documents\visual studio 2015\Projects\Alien Invasion\Alien Invasion\bin\Debug\Alien Invasion.exe">
+      <PackagePath>Alien Invasion.exe</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\jose luis castillo\documents\visual studio 2015\Projects\Alien Invasion\Alien Invasion\Assets\Logo.scale-100.png">
+      <PackagePath>Assets\Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\jose luis castillo\documents\visual studio 2015\Projects\Alien Invasion\Alien Invasion\Assets\SmallLogo.scale-100.png">
+      <PackagePath>Assets\SmallLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\jose luis castillo\documents\visual studio 2015\Projects\Alien Invasion\Alien Invasion\Assets\SplashScreen.scale-100.png">
+      <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\jose luis castillo\documents\visual studio 2015\Projects\Alien Invasion\Alien Invasion\Assets\StoreLogo.scale-100.png">
+      <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\jose luis castillo\documents\visual studio 2015\Projects\Alien Invasion\Alien Invasion\bin\Debug\Alien Invasion.xr.xml">
+      <PackagePath>Alien Invasion.xr.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\jose luis castillo\documents\visual studio 2015\Projects\Alien Invasion\Alien Invasion\bin\Debug\App.xbf">
+      <PackagePath>App.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\jose luis castillo\documents\visual studio 2015\Projects\Alien Invasion\Alien Invasion\bin\Debug\MainPage.xbf">
+      <PackagePath>MainPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\jose luis castillo\documents\visual studio 2015\Projects\Alien Invasion\Alien Invasion\bin\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>
