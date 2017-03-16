@@ -72,7 +72,7 @@
                 <StackPanel Grid.Column="1" HorizontalAlignment="Right" Orientation="Horizontal"/>
             </Grid>
         </AppBar>
-        <ContentControl Content="ContentControl" Grid.Row="2" Grid.Column="2" d:LayoutOverrides="LeftPosition, RightPosition" Template="{StaticResource EnemyTemplate}"/>
+        <ContentControl Content="ContentControl" Grid.Row="2" Grid.Column="2" Template="{StaticResource EnemyTemplate}" Width="100" Height="100"/>
         <Canvas x:Name="playArea" Grid.Row="1" RenderTransformOrigin="0.5,0.5" Grid.ColumnSpan="3">
             <Canvas.Background>
                 <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
