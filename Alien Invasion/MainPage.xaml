@@ -8,7 +8,7 @@
     xmlns:common="using:Alien_Invasion.Common"
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-    mc:Ignorable="d">
+    mc:Ignorable="d" BorderThickness="20" RequestedTheme="Dark">
 
     <Page.Resources>
         <!-- TODO: Delete this line if the key AppName is declared in App.xaml -->
@@ -57,13 +57,12 @@
 
 
         </Grid>
-        <Button x:Name="button" Content="Button" VerticalAlignment="Top"/>
-        <Button x:Name="button1" Content="Start!&#xA;" HorizontalAlignment="Center" Grid.Row="2" VerticalAlignment="Center"/>
+        <Button x:Name="startButton" Content="Start!" HorizontalAlignment="Center" Grid.Row="2" VerticalAlignment="Center"/>
         <StackPanel Grid.Column="2" Orientation="Vertical" Grid.Row="2" d:LayoutOverrides="Height" HorizontalAlignment="Center" VerticalAlignment="Center">
             <TextBlock x:Name="textBlock" TextWrapping="Wrap" Text="Avoid These" Style="{StaticResource SubheaderTextBlockStyle}" HorizontalAlignment="Center" VerticalAlignment="Center"/>
         </StackPanel>
         <ProgressBar Grid.Column="1" Grid.Row="2" Height="20"/>
-        <AppBar>
+        <AppBar Margin="0,-5,0,5" Height="140" VerticalAlignment="Bottom">
             <Grid>
                 <Grid.ColumnDefinitions>
                     <ColumnDefinition/>
