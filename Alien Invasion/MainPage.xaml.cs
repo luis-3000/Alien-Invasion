@@ -14,6 +14,8 @@ using Windows.UI.Xaml.Input;
 using Windows.UI.Xaml.Media;
 using Windows.UI.Xaml.Navigation;
 
+using Windows.UI.Xaml.Media.Animation;
+
 // The Basic Page item template is documented at http://go.microsoft.com/fwlink/?LinkId=234237
 
 namespace Alien_Invasion
@@ -23,6 +25,7 @@ namespace Alien_Invasion
     /// </summary>
     public sealed partial class MainPage : Page
     {
+        Random random = new Random();
 
         private NavigationHelper navigationHelper;
         private ObservableDictionary defaultViewModel = new ObservableDictionary();
@@ -102,5 +105,39 @@ namespace Alien_Invasion
         }
 
         #endregion
+
+
+
+        private void startButton_Click(object sender, RoutedEventArgs e)
+        {
+            AddEnemy();
+        }
+
+        private void AddEnemy()
+        {
+            ContentControl enemy = new ContentControl();
+            enemy.Template = Resources["EnemyTemplate"] as ControlTemplate;
+            AnimateEnemy(enemy, 0, playArea.ActualWidth - 100, "(Canvas.Left)");
+            AnimateEnemy(enemy, random.Next((int)playArea.ActualHeight - 100),
+                random.Next((int)playArea.ActualHeight - 100), "(Canvas.Top)");
+            //Add the enemy control to a collection called Children
+            playArea.Children.Add(enemy);
+        }
+
+        /* Code to make the enemy move across the playArea */
+        private void AnimateEnemy(ContentControl enemy, double from, double to, string propertyToAnimate)
+        {
+            Storyboard storyboard = new Storyboard() { AutoReverse = true, RepeatBehavior = RepeatBehavior.Forever };
+            DoubleAnimation animation = new DoubleAnimation()
+            {
+                From = from,
+                To = to,
+                Duration = new Windows.UI.Xaml.Duration(TimeSpan.FromSeconds(random.Next(4, 6)))
+            };
+            Storyboard.SetTarget(animation, enemy);
+            Storyboard.SetTargetProperty(animation, propertyToAnimate);
+            storyboard.Children.Add(animation);
+            storyboard.Begin();
+        }
     }
 }

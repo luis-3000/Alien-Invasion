@@ -57,7 +57,7 @@
 
 
         </Grid>
-        <Button x:Name="startButton" Content="Start!" HorizontalAlignment="Center" Grid.Row="2" VerticalAlignment="Center"/>
+        <Button x:Name="startButton" Content="Start!" HorizontalAlignment="Center" Grid.Row="2" VerticalAlignment="Center" Click="startButton_Click"/>
         <StackPanel Grid.Column="2" Orientation="Vertical" Grid.Row="2" d:LayoutOverrides="Height" HorizontalAlignment="Center" VerticalAlignment="Center">
             <TextBlock x:Name="textBlock" TextWrapping="Wrap" Text="Avoid These" Style="{StaticResource SubheaderTextBlockStyle}" HorizontalAlignment="Center" VerticalAlignment="Center"/>
         </StackPanel>

@@ -11,48 +11,67 @@
     <PackageIdentityName>e5fb5b97-58e9-403f-999b-988a986784de</PackageIdentityName>
     <PackageIdentityPublisher>CN=Jose Luis Castillo</PackageIdentityPublisher>
     <IntermediateOutputPath>C:\Users\Jose Luis Castillo\Documents\Visual Studio 2015\Projects\Alien Invasion\Alien Invasion\obj\Debug\</IntermediateOutputPath>
-    <RemoteDeploymentType></RemoteDeploymentType>
-    <PackageRegistrationPath></PackageRegistrationPath>
+    <RemoteDeploymentType>
+    </RemoteDeploymentType>
+    <PackageRegistrationPath>
+    </PackageRegistrationPath>
     <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
+    <RegisteredManifestChecksum>7895F3E9DE12335DD477612486A098C9511BE6183D4F6A0EE20EEA2AA8ADD9D6</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>e5fb5b97-58e9-403f-999b-988a986784de_1.0.0.0_neutral__k405h975f37tt</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>e5fb5b97-58e9-403f-999b-988a986784de_k405h975f37tt!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>e5fb5b97-58e9-403f-999b-988a986784de</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=Jose Luis Castillo</RegisteredPackagePublisher>
+    <RegisteredVersion>1.0.0.0</RegisteredVersion>
+    <JitOptimizationSuppressed>True</JitOptimizationSuppressed>
   </PropertyGroup>
   <ItemGroup>
     <AppXManifest Include="C:\Users\Jose Luis Castillo\Documents\Visual Studio 2015\Projects\Alien Invasion\Alien Invasion\bin\Debug\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2017-03-17T02:58:21.728</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\Jose Luis Castillo\Documents\Visual Studio 2015\Projects\Alien Invasion\Alien Invasion\bin\Debug\Alien Invasion.exe">
       <PackagePath>Alien Invasion.exe</PackagePath>
+      <Modified>2017-03-17T02:58:20.013</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Jose Luis Castillo\Documents\Visual Studio 2015\Projects\Alien Invasion\Alien Invasion\Assets\Logo.scale-100.png">
       <PackagePath>Assets\Logo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-07-07T04:05:20.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Jose Luis Castillo\Documents\Visual Studio 2015\Projects\Alien Invasion\Alien Invasion\Assets\SmallLogo.scale-100.png">
       <PackagePath>Assets\SmallLogo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-07-07T04:05:20.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Jose Luis Castillo\Documents\Visual Studio 2015\Projects\Alien Invasion\Alien Invasion\Assets\SplashScreen.scale-100.png">
       <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-07-07T04:05:20.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Jose Luis Castillo\Documents\Visual Studio 2015\Projects\Alien Invasion\Alien Invasion\Assets\StoreLogo.scale-100.png">
       <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-07-07T04:05:20.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Jose Luis Castillo\Documents\Visual Studio 2015\Projects\Alien Invasion\Alien Invasion\bin\Debug\Alien Invasion.xr.xml">
       <PackagePath>Alien Invasion.xr.xml</PackagePath>
+      <Modified>2017-03-17T02:58:19.265</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Jose Luis Castillo\Documents\Visual Studio 2015\Projects\Alien Invasion\Alien Invasion\bin\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
+      <Modified>2017-03-09T19:35:53.424</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Jose Luis Castillo\Documents\Visual Studio 2015\Projects\Alien Invasion\Alien Invasion\bin\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
+      <Modified>2017-03-17T02:58:19.441</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Jose Luis Castillo\Documents\Visual Studio 2015\Projects\Alien Invasion\Alien Invasion\bin\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2017-03-17T02:58:20.772</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>
