@@ -61,7 +61,7 @@
         <StackPanel Grid.Column="2" Orientation="Vertical" Grid.Row="2" d:LayoutOverrides="Height" HorizontalAlignment="Center" VerticalAlignment="Center">
             <TextBlock x:Name="textBlock" TextWrapping="Wrap" Text="Avoid These" Style="{StaticResource SubheaderTextBlockStyle}" HorizontalAlignment="Center" VerticalAlignment="Center"/>
         </StackPanel>
-        <ProgressBar Grid.Column="1" Grid.Row="2" Height="20"/>
+        <ProgressBar x:Name="progressBar" Grid.Column="1" Grid.Row="2" Height="20"/>
         <AppBar Margin="0,-5,0,5" Height="140" VerticalAlignment="Bottom">
             <Grid>
                 <Grid.ColumnDefinitions>

@@ -26,6 +26,9 @@ namespace Alien_Invasion
     public sealed partial class MainPage : Page
     {
         Random random = new Random();
+        DispatcherTimer enemyTimer = new DispatcherTimer();
+        DispatcherTimer targetTimer = new DispatcherTimer();
+        bool humanCaptured = false;
 
         private NavigationHelper navigationHelper;
         private ObservableDictionary defaultViewModel = new ObservableDictionary();
@@ -49,11 +52,44 @@ namespace Alien_Invasion
 
 
         public MainPage()
-        {
+        {   // Random generator to move the enemies in the canvas
             this.InitializeComponent();
+            //Timers and their corresponding methods
             this.navigationHelper = new NavigationHelper(this);
             this.navigationHelper.LoadState += navigationHelper_LoadState;
             this.navigationHelper.SaveState += navigationHelper_SaveState;
+
+            enemyTimer.Tick += EnemyTimer_Tick;
+            enemyTimer.Interval = TimeSpan.FromSeconds(2);
+
+            targetTimer.Tick += targetTimer_Tick;
+            targetTimer.Interval = TimeSpan.FromSeconds(.1);
+        }
+
+        private void targetTimer_Tick(object sender, object e)
+        {
+            progressBar.Value += 1;
+            if(progressBar.Value >= progressBar.Maximum)
+                EndTheGame();
+        }
+
+        /* This method ends the game by stopping the timers, making the Start button
+           visible again, and adding the GAME OVER test to the play area. */
+        private void EndTheGame()
+        {
+            if (!playArea.Children.Contains(gameOverText))
+            {
+                enemyTimer.Stop();
+                targetTimer.Stop();
+                humanCaptured = false;
+                startButton.Visibility = Visibility.Visible;
+                playArea.Children.Add(gameOverText);
+            }
+        }
+
+        private void EnemyTimer_Tick(object sender, object e)
+        {
+            throw new NotImplementedException();
         }
 
         /// <summary>
