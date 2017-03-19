@@ -59,7 +59,7 @@ namespace Alien_Invasion
             this.navigationHelper.LoadState += navigationHelper_LoadState;
             this.navigationHelper.SaveState += navigationHelper_SaveState;
 
-            enemyTimer.Tick += EnemyTimer_Tick;
+            enemyTimer.Tick += enemyTimer_Tick;
             enemyTimer.Interval = TimeSpan.FromSeconds(2);
 
             targetTimer.Tick += targetTimer_Tick;
@@ -87,9 +87,9 @@ namespace Alien_Invasion
             }
         }
 
-        private void EnemyTimer_Tick(object sender, object e)
+        private void enemyTimer_Tick(object sender, object e)
         {
-            throw new NotImplementedException();
+            AddEnemy();
         }
 
         /// <summary>
@@ -146,7 +146,21 @@ namespace Alien_Invasion
 
         private void startButton_Click(object sender, RoutedEventArgs e)
         {
-            AddEnemy();
+            //AddEnemy();
+            StartGame();
+        }
+
+        private void StartGame()
+        {
+            human.IsHitTestVisible = true;
+            humanCaptured = false;
+            progressBar.Value = 0;
+            startButton.Visibility = Visibility.Collapsed;
+            playArea.Children.Clear();
+            playArea.Children.Add(target);
+            playArea.Children.Add(human);
+            enemyTimer.Start();
+            targetTimer.Start();
         }
 
         private void AddEnemy()
