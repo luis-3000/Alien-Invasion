@@ -25,8 +25,16 @@
     <AppxPackagedFile Include="C:\Users\Jose Luis Castillo\Documents\Visual Studio 2015\Projects\Alien Invasion\Alien Invasion\bin\Debug\Alien Invasion.exe">
       <PackagePath>Alien Invasion.exe</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jose Luis Castillo\Documents\Visual Studio 2015\Projects\Alien Invasion\Alien Invasion\Assets\Logo.png">
+      <PackagePath>Assets\Logo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Jose Luis Castillo\Documents\Visual Studio 2015\Projects\Alien Invasion\Alien Invasion\Assets\Logo.scale-100.png">
       <PackagePath>Assets\Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jose Luis Castillo\Documents\Visual Studio 2015\Projects\Alien Invasion\Alien Invasion\Assets\SmallLogo.png">
+      <PackagePath>Assets\SmallLogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Jose Luis Castillo\Documents\Visual Studio 2015\Projects\Alien Invasion\Alien Invasion\Assets\SmallLogo.scale-100.png">

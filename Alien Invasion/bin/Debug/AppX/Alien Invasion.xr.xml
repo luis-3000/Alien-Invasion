@@ -41,8 +41,23 @@
     <RootType FullName="Windows.UI.Xaml.Shapes.Ellipse">
       <RootProperty Name="Fill" />
       <RootProperty Name="Height" />
-      <RootProperty Name="Stroke" />
       <RootProperty Name="Width" />
+      <RootProperty Name="Stroke" />
+      <RootProperty Name="HorizontalAlignment" />
+      <RootProperty Name="VerticalAlignment" />
+      <RootProperty Name="Margin" />
+      <RootProperty Name="RenderTransformOrigin" />
+      <RootProperty Name="RenderTransform" />
+      <RootProperty Name="Projection" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Media.CompositeTransform">
+      <RootProperty Name="SkewX" />
+      <RootProperty Name="Rotation" />
+      <RootProperty Name="CenterY" />
+      <RootProperty Name="CenterX" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Media.PlaneProjection">
+      <RootProperty Name="RotationX" />
     </RootType>
     <RootType FullName="Microsoft.Xaml.Tools.DirectUI.ProxyTypes.ThemeResourceExtension" />
     <RootType FullName="Windows.UI.Xaml.Controls.ColumnDefinition">
@@ -122,11 +137,6 @@
       <RootProperty Name="RenderTransform" />
       <RootProperty Name="Fill" />
       <RootEvent Name="PointerEntered" />
-    </RootType>
-    <RootType FullName="Windows.UI.Xaml.Media.CompositeTransform">
-      <RootProperty Name="Rotation" />
-      <RootProperty Name="CenterY" />
-      <RootProperty Name="CenterX" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Documents.Run">
       <RootProperty Name="Text" />
