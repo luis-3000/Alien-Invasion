@@ -28,23 +28,18 @@
     <AppXManifest Include="C:\Users\Jose Luis Castillo\Documents\Visual Studio 2015\Projects\Alien Invasion\Alien Invasion\bin\Debug\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-03-19T21:11:39.241</Modified>
+      <Modified>2017-03-19T21:19:22.380</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\Jose Luis Castillo\Documents\Visual Studio 2015\Projects\Alien Invasion\Alien Invasion\bin\Debug\Alien Invasion.exe">
       <PackagePath>Alien Invasion.exe</PackagePath>
-      <Modified>2017-03-19T21:11:38.844</Modified>
+      <Modified>2017-03-19T23:31:09.097</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Jose Luis Castillo\Documents\Visual Studio 2015\Projects\Alien Invasion\Alien Invasion\Assets\Logo.png">
       <PackagePath>Assets\Logo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2017-03-19T21:06:53.048</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Jose Luis Castillo\Documents\Visual Studio 2015\Projects\Alien Invasion\Alien Invasion\Assets\Logo.scale-100.png">
-      <PackagePath>Assets\Logo.scale-100.png</PackagePath>
-      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2015-07-07T04:05:20.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Jose Luis Castillo\Documents\Visual Studio 2015\Projects\Alien Invasion\Alien Invasion\Assets\SmallLogo.png">
       <PackagePath>Assets\SmallLogo.png</PackagePath>
@@ -68,7 +63,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Jose Luis Castillo\Documents\Visual Studio 2015\Projects\Alien Invasion\Alien Invasion\bin\Debug\Alien Invasion.xr.xml">
       <PackagePath>Alien Invasion.xr.xml</PackagePath>
-      <Modified>2017-03-19T19:45:07.796</Modified>
+      <Modified>2017-03-19T23:31:08.772</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Jose Luis Castillo\Documents\Visual Studio 2015\Projects\Alien Invasion\Alien Invasion\bin\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
@@ -76,12 +71,12 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Jose Luis Castillo\Documents\Visual Studio 2015\Projects\Alien Invasion\Alien Invasion\bin\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2017-03-19T21:11:38.284</Modified>
+      <Modified>2017-03-19T23:31:08.827</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Jose Luis Castillo\Documents\Visual Studio 2015\Projects\Alien Invasion\Alien Invasion\bin\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-03-19T21:11:39.078</Modified>
+      <Modified>2017-03-19T21:19:21.999</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>
