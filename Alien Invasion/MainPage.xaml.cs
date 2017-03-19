@@ -172,6 +172,16 @@ namespace Alien_Invasion
                 random.Next((int)playArea.ActualHeight - 100), "(Canvas.Top)");
             //Add the enemy control to a collection called Children
             playArea.Children.Add(enemy);
+
+            enemy.PointerEntered += enemy_PointerEntered;
+        }
+
+        private void enemy_PointerEntered(object sender, PointerRoutedEventArgs e)
+        {
+            if (humanCaptured)
+            {
+                EndTheGame();
+            }
         }
 
         /* Code to make the enemy move across the playArea */

@@ -12,7 +12,7 @@
 
     <Page.Resources>
         <!-- TODO: Delete this line if the key AppName is declared in App.xaml -->
-        <x:String x:Key="AppName">Save the Humans</x:String>
+        <x:String x:Key="AppName">Alien Invasion</x:String>
         <ControlTemplate x:Key="EnemyTemplate" TargetType="ContentControl">
             <Grid>
                 <Ellipse Fill="Red" Height="100" Stroke="Black" Width="100"/>
@@ -43,7 +43,7 @@
         </Grid.RowDefinitions>
 
         <!-- Back button and page title -->
-        <Grid Grid.ColumnSpan="3" RenderTransformOrigin="0.499,0.532">
+        <Grid x:Name="grid" Grid.ColumnSpan="3" RenderTransformOrigin="0.499,0.532">
             <Grid.ColumnDefinitions>
                 <ColumnDefinition Width="120"/>
                 <ColumnDefinition Width="*"/>
@@ -73,7 +73,7 @@
                 <StackPanel Grid.Column="1" HorizontalAlignment="Right" Orientation="Horizontal"/>
             </Grid>
         </AppBar>
-        <Canvas x:Name="playArea" Grid.Row="1" RenderTransformOrigin="0.5,0.5" Grid.ColumnSpan="3">
+        <Canvas x:ConnectionId='2' x:Name="playArea" Grid.Row="1" RenderTransformOrigin="0.5,0.5" Grid.ColumnSpan="3"                                                                            >
             <Canvas.Background>
                 <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
                     <GradientStop Color="#FF8051C0" Offset="0"/>
@@ -81,7 +81,7 @@
                     <GradientStop Color="#FF1FA474" Offset="1"/>
                 </LinearGradientBrush>
             </Canvas.Background>
-            <StackPanel x:Name="human" Orientation="Vertical">
+            <StackPanel x:ConnectionId='3' x:Name="human" Orientation="Vertical"                                      >
                 <Ellipse Fill="White" Height="10" Stroke="Black" Width="10"/>
                 <Rectangle Fill="White" Height="25" Stroke="Black" Width="10"/>
             </StackPanel>
@@ -92,7 +92,7 @@
                 <LineBreak/>
                 <Run/>
             </TextBlock>
-            <Rectangle x:Name="target" Height="50" Canvas.Left="931" Stroke="Black" Canvas.Top="79" Width="50" RenderTransformOrigin="0.5,0.5">
+            <Rectangle x:ConnectionId='4' x:Name="target" Height="50" Canvas.Left="931" Stroke="Black" Canvas.Top="79" Width="50" RenderTransformOrigin="0.5,0.5"                                       >
                 <Rectangle.RenderTransform>
                     <CompositeTransform Rotation="-44.771"/>
                 </Rectangle.RenderTransform>

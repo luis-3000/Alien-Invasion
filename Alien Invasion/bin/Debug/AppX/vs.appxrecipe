@@ -34,7 +34,7 @@
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\Jose Luis Castillo\Documents\Visual Studio 2015\Projects\Alien Invasion\Alien Invasion\bin\Debug\Alien Invasion.exe">
       <PackagePath>Alien Invasion.exe</PackagePath>
-      <Modified>2017-03-19T01:07:43.356</Modified>
+      <Modified>2017-03-19T18:18:32.946</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Jose Luis Castillo\Documents\Visual Studio 2015\Projects\Alien Invasion\Alien Invasion\Assets\Logo.scale-100.png">
       <PackagePath>Assets\Logo.scale-100.png</PackagePath>
@@ -58,7 +58,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Jose Luis Castillo\Documents\Visual Studio 2015\Projects\Alien Invasion\Alien Invasion\bin\Debug\Alien Invasion.xr.xml">
       <PackagePath>Alien Invasion.xr.xml</PackagePath>
-      <Modified>2017-03-19T01:07:43.059</Modified>
+      <Modified>2017-03-19T18:18:32.332</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Jose Luis Castillo\Documents\Visual Studio 2015\Projects\Alien Invasion\Alien Invasion\bin\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
@@ -66,7 +66,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Jose Luis Castillo\Documents\Visual Studio 2015\Projects\Alien Invasion\Alien Invasion\bin\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2017-03-19T01:07:43.116</Modified>
+      <Modified>2017-03-19T18:18:32.493</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Jose Luis Castillo\Documents\Visual Studio 2015\Projects\Alien Invasion\Alien Invasion\bin\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
